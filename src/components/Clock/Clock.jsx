@@ -9,7 +9,7 @@ const Clock = () => {
     const [seconds,setSeconds] = useState();
     const countDown = () => {
         const currentDate = new Date();
-        const expectedDate = new Date('1-1-2023');
+        const expectedDate = new Date('10-1-2023');
         let distanceBetweenDates = expectedDate - currentDate;
 
         let days = Math.round(distanceBetweenDates / 1000 / 60 / 60 / 24);

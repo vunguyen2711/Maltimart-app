@@ -1,5 +1,14 @@
 import React from "react";
-import {CounterTime, Helmet, HeroSection, Services,TrendingProducts,BestSale} from "../../components";
+import {
+    CounterTime,
+    Helmet,
+    HeroSection,
+    Services,
+    TrendingProducts,
+    BestSale,
+    NewArrival,
+    PopularProducts
+} from "../../components";
 
 const Home = () => {
     return (<>
@@ -10,6 +19,8 @@ const Home = () => {
         <TrendingProducts></TrendingProducts>
         <BestSale></BestSale>
         <CounterTime></CounterTime>
+        <NewArrival></NewArrival>
+        <PopularProducts></PopularProducts>
     </>);
 };
 

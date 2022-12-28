@@ -4,5 +4,8 @@ import Services from "./Services/Services";
 import BestSale from "./BestSale/BestSale";
 import TrendingProducts from "./TrendingProducts/TrendingProducts";
 import CounterTime from "./CounterTime/CounterTime";
-import Clock from "./Clock/Clock"
-export { Helmet, HeroSection, Services, BestSale, TrendingProducts,CounterTime,Clock };
+import Clock from "./Clock/Clock";
+import NewArrival from "./NewArrival/NewArrival";
+import ProductCard from "./ProductCard/ProductCard";
+import PopularProducts from "./PopularProducts/PopularProducts";
+export { Helmet, HeroSection, Services, BestSale, TrendingProducts,CounterTime,Clock,NewArrival,ProductCard,PopularProducts };
